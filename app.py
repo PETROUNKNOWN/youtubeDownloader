@@ -62,7 +62,7 @@ class YouTubeAudioDownloader:
             downloads_path = str(Path.home() / "Downloads")
             command = [
                 "yt-dlp", "-x", "--audio-format", "mp3",
-                "--ffmpeg-location", "c:/Users/petro/Downloads/ffmpeg-2025-01-08-git-251de1791e-full_build/ffmpeg-2025-01-08-git-251de1791e-full_build/bin",
+                "--ffmpeg-location", "c:/Users/<username>/ffmpeg-full_build/bin",
                 "-o", f"{downloads_path}/%(title)s.%(ext)s", link,
             ]
 
