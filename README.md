@@ -1,6 +1,6 @@
 # YouTube Audio Downloader
 
-YouTube Audio Downloader is a lightweight and user-friendly desktop application built with the `yt-dlp` package and `customtkinter` UI. It allows users to download audio tracks from YouTube videos effortlessly, offering a seamless and intuitive interface for managing downloads.
+YouTube Audio Downloader is a lightweight and user-friendly desktop application built with the `yt-dlp` package and `customtkinter` UI. It allows users to download audio tracks from YouTube effortlessly, offering a seamless and intuitive interface for managing downloads.
 
 ## Requirements
 
@@ -9,14 +9,16 @@ YouTube Audio Downloader is a lightweight and user-friendly desktop application 
 2. Customtkinter:
    ```bash
    pip install customtkinter
+   ```
 
 3. yt-dlp:
    ```bash
    pip install yt-dlp
+   ```
 
 4. FFmpeg:
    - Download FFmpeg from [FFmpeg.org](https://ffmpeg.org)
-   - Add the bin folder path directly in the code on line ` `.
+   - Add the bin folder path directly in the code on line `66`.
 
 ## Installation
 
